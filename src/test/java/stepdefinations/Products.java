@@ -46,7 +46,6 @@ public class Products {
         JsonPath jsonPath = response.jsonPath();
 
         String s = jsonPath.getJsonObject("rating[0].rate").toString();
-
         Assert.assertEquals(rate, s);
     }
 }
