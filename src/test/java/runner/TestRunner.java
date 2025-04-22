@@ -13,6 +13,4 @@ import org.junit.runner.RunWith;
         monochrome = true // To get the output in readable format
 )
 
-public class TestRunner {
-
-}
+public class TestRunner { }
